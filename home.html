@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BDA Lab Home Page</title>
+	<link rel="apple-touch-icon" sizes="180x180" href="logo/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="logo/favicon//favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="logo/favicon//favicon-16x16.png">
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<link rel="manifest" href="logo/favicon//site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+    <header>
+		<h1 class="heading">BDA Lab</h1>
+		<nav>
+			
+				<a href="#" class="bttn">Home</a>
+				<a href="#" class="bttn">About</a>
+				<a href="#" class="bttn">Projects</a>
+				<a href="#" class="bttn">Create Conference</a>
+				<a href="login.html" class="bttn sign-up"><i class="fa fa-user fa-lg"></i>Login/Log out</a>
+		
+		</nav>
+	</header>
+
+	<main>
+		<section>
+			<h2 >Welcome to BDA Lab</h2>
+			<p>
+				In the past decade, we have witnessed the emergence of data-intensive applications that involve massive data flows and real-time decision-making. The increasing volume of data sources and recent business demands established data science as one of the most rapidly expanding fields.Data science combines mathematics and statistics, highly specialised programming, advanced analytics, artificial intelligence (AI), and machine learning with subject matter expertise to extract actionable insights from an organization's data.Our lab is focused on Big Data Analytics and we strive to provide innovative solutions for businesses and organizations. Our team of experts are dedicated to using advanced data analytics to solve complex problems.</p>
+		</section>
+
+		<section>
+			<h2 class="projects">Our Projects</h2>
+			
+			<div class="carousel"
+  data-flickity='{ "wrapAround": true }'>
+  <div class="carousel-cell"> 
+	<a href="research papers/cyber security.pdf"  target="_blank">
+		 <img src="research papers/Cyber Security.jpg" style="width: 600px ; height: 500px;"> </a> </div>
+  <div class="carousel-cell"> 
+	<a href="research papers/ml dl.pdf"  target="_blank"> 
+	 <img src="research papers/AI And ML.jpg" style="width: 600px ; height: 500px;"> </a></div>
+	 <div class="carousel-cell"> 
+		<a href="research papers/cyber security.pdf"  target="_blank"> 
+		 <img src="research papers/Cyber Security.jpg" style="width: 600px ; height: 500px;"> </a></div>
+	
+  <div class="carousel-cell">  
+	<a href="research papers/neural networks.pdf.pdf"  target="_blank">
+	  <img src="research papers/Neural Networks.jpg" style="width: 600px ; height: 500px;"> </a></div>
+</div>
+				  
+					
+			
+			
+		</section>
+
+		<section>
+			<h2 class="worshops"> Workshops</h2>
+			
+				<h3>The First International Workshop on BDA  2022 is being organised in the online mode</h3>
+				<br>
+				<br>
+				<div class="Timeline">Timeline: 29 March,2023-3 April,2023</div>
+
+				<div class="buttons"><button class="Reg">Register Now</button>
+				<button class="Reg">Payment Form</button>
+				<button class="Reg">Workshop Flyer</button>
+			 </div>
+			
+		</section>
+
+		<section>
+			<h2> Talks and Schedule</h2>
+			<div class="payment">Workshop Link:  <a href="#" class="link">Click Here</a></div>
+		</section>
+
+		<section>
+			 <h2>Registration Details</h2>
+		<div class="payment">Student/Research Scholar : Rs. 500 (INR)
+			<br>
+      Faculty/Industry Personnel : Rs. 1000 (INR)
+          <br>
+       Registration Link : <a href="#" class="link">Click Here</a>
+                <br>
+        Payment Link :<a href="#" class="link">Click here</a></div>
+		</section>
+	</main>
+          
+	    
+
+		<footer>
+			<a href="#">Queries</a>
+			<a href="#">contact details</a>
+			<a href="#">FAQ</a>
+			<a href="#" class="copy">&copy;copyright</a>
+		</footer>
+
+
+ <!-- JavaScript -->
+ <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+ <script type="module">
+	// Import the functions you need from the SDKs you need
+	import { initializeApp } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-app.js";
+	import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-analytics.js";
+	import {getAuth } from "https://www.gstatic.com/firebasejs/9.21.0/firebase-auth.js";
+	// TODO: Add SDKs for Firebase products that you want to use
+	// https://firebase.google.com/docs/web/setup#available-libraries
+  
+	// Your web app's Firebase configuration
+	// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+	const firebaseConfig = {
+	  apiKey: "AIzaSyAYTY5lQ3bk2VTA-3MJ9WlShylpBPv0Xfo",
+	  authDomain: "se-project-ad4fd.firebaseapp.com",
+	  projectId: "se-project-ad4fd",
+	  storageBucket: "se-project-ad4fd.appspot.com",
+	  messagingSenderId: "412494589009",
+	  appId: "1:412494589009:web:3c9311b20c87ebea6e1c70",
+	  measurementId: "G-M6HMS5V66R"
+	};
+  
+	// Initialize Firebase
+	const app = initializeApp(firebaseConfig);
+	const analytics = getAnalytics(app);
+	const Authentication=getAuth(app);
+  </script>
+
+</body>
+    
+</body>
+</html>
